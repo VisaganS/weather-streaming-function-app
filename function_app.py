@@ -4,6 +4,7 @@ import json
 import azure.functions as func
 from azure.eventhub import EventHubProducerClient, EventData
 from azure.identity import DefaultAzureCredential
+from azure.keyvault.secrets import SecretClient
 
 
 app = func.FunctionApp()
